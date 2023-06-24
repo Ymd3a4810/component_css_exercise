@@ -1,3 +1,30 @@
+# 6/20
+## githubのブランチの運用
+https://docs.github.com/ja/get-started/quickstart/github-flow
+https://qiita.com/tatane616/items/aec00cdc1b659761cf88
+
+1. githubのbranchesからnewBranchでブランチを作成
+2. リモートリポジトリの一覧を取得: `git fetch` 
+3. ローカルにチェックアウト: `git checkout -b develop origin/develop`
+4. ステータスを確認: `git status`
+
+git checkout -b develop origin/main
+
+
+```
+/* メニューアイテムコンポーネント */
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu_list_recommended {
+  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
+  padding-bottom: 50px;
+}
+```
+
 # 6/9
 ## git hub ssh key の再作成と登録
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
